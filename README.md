@@ -5,7 +5,8 @@
 **Vulnerability reported to vendor:** 26.08.2022     
 **New fixed 9.0.21 version released:** 12.09.2022    
 **Patch for version 9.0.20.200 released:** 21.12.2022     
-**Disclosure:** 05.06.2023    
+**Disclosure:** 05.06.2023
+**Additional Information from Vendor:** Version 9.0.20 requires two patches 9.0.20.220 and then 9.0.20.224 to fix this vulnerability
 
 **Affected Products:**   
 BMC Control-M software up to (including) 9.0.20.200 .
